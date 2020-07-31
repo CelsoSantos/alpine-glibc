@@ -1,0 +1,5 @@
+FROM alpine:latest
+# Here we install GNU libc (aka glibc) and set C.UTF-8 locale as default.
+ENV LANG=C.UTF-8
+
+ADD glibc-bin.tar.gz /
