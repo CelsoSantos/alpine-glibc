@@ -1,7 +1,9 @@
 # alpine-glibc
 
-This repo contains the code to generate https://hub.docker.com/r/celsosantos/alpine-glibc.
-It can produce builds for any architecture. This one is used to produce ARM64 builds.
+This repo contains the code to generate [`celsosantos/alpine-glibc`](https://hub.docker.com/r/celsosantos/alpine-glibc).
+It can produce builds for any architecture. This one is used to produce `arm64` builds.
+
+It aims to be a direct replacement of [`frolvlad/alpine-glibc`](https://hub.docker.com/r/frolvlad/alpine-glibc) built for `arm64`.
 
 It also includes a glibc binary package builder in Docker. Produces a glibc binary package that can be imported into a rootfs to run applications dynamically linked against glibc, highly based on https://github.com/sgerrand/docker-glibc-builder
 
